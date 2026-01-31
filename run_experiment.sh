@@ -209,7 +209,7 @@ label_data() {
     fi
     
     print_info "Auto-labeling traffic data..."
-    python3 label_data.py --input $DATA_FILE
+    sudo python3 label_data.py --input $DATA_FILE
     
     print_info "Data labeled successfully!"
 }
